@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.2...v1.2.0) (2019-11-19)
+
+
+### Features
+
+* Make travis push coverage results to the codacy; ([43ed84d](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/43ed84d6d79024b1156fb3e7661b77143b21186f))
+
 ## [1.1.2](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.1...v1.1.2) (2019-11-19)
 
 
