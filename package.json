@@ -1,6 +1,9 @@
 {
   "name": "@xobotyi/should-reverse-rtl-scroll",
   "version": "0.0.0-dev",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Library detecting if RTL scroll value should be negative",
   "keywords": [
     "rtl",
