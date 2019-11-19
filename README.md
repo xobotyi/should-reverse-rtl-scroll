@@ -46,6 +46,19 @@ After that you will be able to use the function as `xobotyi.shouldReverseRtlScro
 
 ## Usage
 
+```javascript
+import { shouldReverseRtlScroll } from "@xobotyi/should-reverse-rtl-scroll";
+
+shouldReverseRtlScroll(); // true for FireFox, IE and false for Chrome or SSR
+// or undefined if to call it too early [read below]
+```
+
+This function caches the value to bring the less possible performance impact. In case you want to get re-calculated value - pass `true` as first call parameter.
+
+>**NOTE:**
+>Function will return `undefined` in case being called before the DOM is ready.
+
+
 ### Related projects
 - [react-scrollbars-custom](https://www.npmjs.com/package/react-scrollbars-custom) &mdash; The best React custom scrollbars component. Allows you to customise scrollbars as you like it, crossbrowser!
 - [zoom-level](https://www.npmjs.com/package/zoom-level) &mdash; A comprehensive cross-browser package that allow you to determine page's and element's zoom level.
