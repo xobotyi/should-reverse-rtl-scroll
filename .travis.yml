@@ -15,6 +15,7 @@ script:
   - yarn lint
   - yarn build
   - yarn test
+  - npx cat ./coverage/lcov.info | npx codacy-coverage
   - npx semantic-release
 matrix:
   allow_failures: []

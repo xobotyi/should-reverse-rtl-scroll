@@ -14,6 +14,11 @@
         <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
             <img src="https://flat.badgen.net/npm/types/@xobotyi/should-reverse-rtl-scroll" alt="Types definition"/>
         </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
+            <img src="https://flat.badgen.net/codacy/grade/2972fbcd6322488e8c7214ece48fd320" alt="Codacy Code Grade"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
+            <img src="https://flat.badgen.net/codacy/coverage/2972fbcd6322488e8c7214ece48fd320" alt="Tests LOC"/>
     </p>
     <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyishould-reverse-rtl-scroll-live-example-rhqgl">LIVE EXAMPLE</a></strong>&nbsp;×</p>
 </div>
