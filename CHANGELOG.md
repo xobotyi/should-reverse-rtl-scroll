@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.0.0...v1.1.0) (2019-11-19)
+
+
+### Bug Fixes
+
+* @xobotyi/scrollbar-width link ([d4ba3c1](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/d4ba3c19d7f5adacedc128118a19ee8dd9264695))
+* fix description; ([4913a59](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/4913a5985b5c7d20cd281085f95275b9fc16e064))
+
+
+### Features
+
+* add usage example; ([366437f](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/366437f1a523488ca6acf91dcf35026d9bebf425))
+
 # 1.0.0 (2019-11-19)
 
 
