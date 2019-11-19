@@ -1,16 +1,21 @@
 {
-  "name": "",
+  "name": "@xobotyi/should-reverse-rtl-scroll",
   "version": "0.0.0-dev",
-  "description": "",
-  "keywords": [],
+  "description": "Library detecting if RTL scroll value should be negative",
+  "keywords": [
+    "rtl",
+    "scroll",
+    "reverse",
+    "accessibility"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/xobotyi/should-reverse-rtl-scroll.git"
   },
   "bugs": {
-    "url": "https://github.com//issues"
+    "url": "https://github.com/xobotyi/should-reverse-rtl-scroll/issues"
   },
-  "homepage": "https://github.com/",
+  "homepage": "https://github.com/xobotyi/should-reverse-rtl-scroll",
   "author": {
     "name": "Anton Zinovyev",
     "url": "https://github.com/xobotyi",
@@ -29,10 +34,19 @@
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/git": "^7.0.18",
     "@semantic-release/npm": "^5.3.4",
+    "@types/jasmine": "^3.4.6",
     "husky": "^3.1.0",
+    "jasmine": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "^4.1.1",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
+    "rollup": "^1.27.2",
+    "rollup-plugin-typescript2": "^0.25.2",
     "semantic-release": "^15.13.31",
     "terser": "^4.4.0",
     "tslint": "^5.20.1",
@@ -42,9 +56,11 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "lint": "tslint 'src/**/*.ts' -t verbose",
+    "lint": "tslint '{src,tests}/**/*.ts' -t verbose",
     "lint:fix": "yarn lint --fix",
     "lint:types": "tsc --noEmit",
+    "test": "karma start",
+    "build": "rimraf dist && rollup --config && yarn minify",
     "minify": "terser ./dist/index.min.js -o ./dist/index.min.js -mc pure_funcs=['Object.defineProperty'] --toplevel"
   },
   "lint-staged": {
@@ -56,7 +72,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint:types && lint-staged",
-      "pre-push": "yarn lint && rimraf dist && yarn build"
+      "pre-push": "yarn lint && rimraf dist && yarn build && yarn test"
     }
   },
   "release": {
