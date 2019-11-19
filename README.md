@@ -55,7 +55,7 @@ shouldReverseRtlScroll(); // true for FireFox, IE and false for Chrome or SSR
 
 This function caches the value to bring the less possible performance impact. In case you want to get re-calculated value - pass `true` as first call parameter.
 
->**NOTE:**
+>**NOTE:**  
 >Function will return `undefined` in case being called before the DOM is ready.
 
 
