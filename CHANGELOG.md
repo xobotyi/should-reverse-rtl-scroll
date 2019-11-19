@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.2.0...v1.3.0) (2019-11-19)
+
+
+### Features
+
+* modify travis config to push coverage and release the version only if everything is successful. ([be36d99](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/be36d9942871b1be95b6c79da158f2131cc8449c))
+
 # [1.2.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.2...v1.2.0) (2019-11-19)
 
 
