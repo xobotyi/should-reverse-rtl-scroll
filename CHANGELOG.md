@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.0...v1.1.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* newline after `NOTE:` in README.md ([9d06068](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/9d0606861aaf7d637ab977c73808a3071069bf0a))
+
 # [1.1.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.0.0...v1.1.0) (2019-11-19)
 
 
