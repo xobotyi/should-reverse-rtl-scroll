@@ -1,6 +1,6 @@
 <div align="center">
     <H1>@xobotyi/should-reverse-rtl-scroll</H1>
-    <p>Tool detecting if RTL scroll value should be negative.</p>
+    <p>A tool detecting if RTL scroll value should be negative.</p>
     <p>
         <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
             <img src="https://flat.badgen.net/travis/xobotyi/scrollbar-width" alt="Build status"/>
@@ -15,7 +15,7 @@
             <img src="https://flat.badgen.net/npm/types/@xobotyi/should-reverse-rtl-scroll" alt="Types definition"/>
         </a>
     </p>
-    <!-- ToDo: add live example <p>×&nbsp;<strong><a href="">LIVE EXAMPLE</a></strong>&nbsp;×</p>  -->
+    <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyishould-reverse-rtl-scroll-live-example-rhqgl">LIVE EXAMPLE</a></strong>&nbsp;×</p>
 </div>
 
 ---
@@ -49,4 +49,4 @@ After that you will be able to use the function as `xobotyi.shouldReverseRtlScro
 ### Related projects
 - [react-scrollbars-custom](https://www.npmjs.com/package/react-scrollbars-custom) &mdash; The best React custom scrollbars component. Allows you to customise scrollbars as you like it, crossbrowser!
 - [zoom-level](https://www.npmjs.com/package/zoom-level) &mdash; A comprehensive cross-browser package that allow you to determine page's and element's zoom level.
-- [@xobotyi/should-reverse-rtl-scroll](https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll) &mdash; Comprehensive and lightweight tool to get browser's scrollbars width.
+- [@xobotyi/should-reverse-rtl-scroll](https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll) &mdash; A tool to get browser's scrollbars width.
