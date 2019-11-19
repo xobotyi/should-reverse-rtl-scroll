@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.1...v1.1.2) (2019-11-19)
+
+
+### Bug Fixes
+
+* newline after `OR` in README.md ([8496f95](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/8496f950c6c1463efba9f3fcaf8ad375b482c6f4))
+
 ## [1.1.1](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.1.0...v1.1.1) (2019-11-19)
 
 
