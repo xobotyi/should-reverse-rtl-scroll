@@ -75,7 +75,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint:types && lint-staged",
-      "pre-push": "yarn lint && rimraf dist && yarn build && yarn test"
+      "pre-push": "yarn lint:fix && rimraf dist && yarn build && yarn test"
     }
   },
   "release": {
