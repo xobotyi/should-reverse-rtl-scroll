@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.3.0...v1.4.0) (2019-11-20)
+
+
+### Bug Fixes
+
+* **coverage:** Fix codacy coverage push; ([23631c9](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/23631c941d2aad2d0d2309109b89ddc08be14732))
+
+
+### Features
+
+* **readme:** small description; ([2d67e8e](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/2d67e8e2b948b83af5f50a292604ccd4271125f7))
+
 # [1.3.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.2.0...v1.3.0) (2019-11-19)
 
 
