@@ -19,6 +19,7 @@
         </a>
         <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
             <img src="https://flat.badgen.net/codacy/coverage/2972fbcd6322488e8c7214ece48fd320" alt="Tests LOC"/>
+        </a>
     </p>
     <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyishould-reverse-rtl-scroll-live-example-rhqgl">LIVE EXAMPLE</a></strong>&nbsp;×</p>
 </div>
@@ -28,6 +29,11 @@
 <div align="center">❤️Please consider starring this project to show your love and support.🙌</div>
 
 ---
+
+Working with RTL horizontal scrolling can be a bit frustrating because RTL scroll handling differs between browsers.  
+Chrome `scrollLeft` value acts like there is no RTL al all, while FireFox and IE make `scrollLeft` a negative number.
+
+This tool gives you an answer should you reverse RTL scroll value in certain browser or not.
 
 ## Installation
 ```bash

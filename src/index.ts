@@ -49,8 +49,8 @@ export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean)
 
   // some browsers (chrome) will behave as there is no RTL at all, others (IE, FF)
   // makes scrollLeft a negative value while RTL, for them 0 equals rightmost position,
-  // so we can simply check if scrollLeft is 0
-  shouldReverseRtlScroll.__cache = parent.scrollLeft === 0;
+  // so we can check if scrollLeft is 0 and ensure that it accepts negative values
+  shouldReverseRtlScroll.__cache = parent.scrollLeft === 0 && (parent.scrollLeft = -50) === parent.scrollLeft;
 
   document.body.removeChild(parent);
 
