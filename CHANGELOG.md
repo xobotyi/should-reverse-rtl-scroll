@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.4.0...v1.5.0) (2019-12-09)
+
+
+### Features
+
+* Add extra check of DOM readiness. ([e4844b8](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/e4844b84bd9493cb817d8ec14af25fb5b72211f8))
+
 # [1.4.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.3.0...v1.4.0) (2019-11-20)
 
 
