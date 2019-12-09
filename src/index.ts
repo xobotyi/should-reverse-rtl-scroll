@@ -14,6 +14,15 @@ export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean)
     return false;
   }
 
+  // one more safety check. If document has no body element that means script tag been
+  // included before the </body> tag, which in general means that DOM is not ready yet.
+  // Furthermore check the document's ready state in case it is presented [IE9+]
+  // any interactivity [not 'loading'] will be okay for us
+  /* istanbul ignore next */
+  if (!document.body || (document.readyState && document.readyState === 'loading')) {
+    return;
+  }
+
   // return cached value if we have some
   if (force !== true && typeof shouldReverseRtlScroll.__cache === 'boolean') {
     return shouldReverseRtlScroll.__cache;
