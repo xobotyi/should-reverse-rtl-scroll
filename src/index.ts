@@ -1,4 +1,4 @@
-export interface IShouldReverseRtlScroll {
+export interface ShouldReverseRtlScroll {
   (force?: boolean): boolean | undefined;
 
   __cache?: boolean;
@@ -7,7 +7,7 @@ export interface IShouldReverseRtlScroll {
 /**
  * @description Detects the need of horizontal scroll reverse during the RTL display.
  */
-export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean): boolean | undefined => {
+export const shouldReverseRtlScroll: ShouldReverseRtlScroll = (force?: boolean): boolean | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
   if (!document) {
@@ -20,7 +20,7 @@ export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean)
   // any interactivity [not 'loading'] will be okay for us
   /* istanbul ignore next */
   if (!document.body || (document.readyState && document.readyState === 'loading')) {
-    return;
+    return undefined;
   }
 
   // return cached value if we have some
@@ -36,14 +36,17 @@ export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean)
   // for the case of weird css rules where div will not be a block element.
   parentStyle.display = 'block';
   parentStyle.position = 'absolute';
-  parentStyle.width = parentStyle.height = '100px';
-  parentStyle.left = parentStyle.top = '-999px';
+  parentStyle.width = '100px';
+  parentStyle.height = '100px';
+  parentStyle.left = '-999px';
+  parentStyle.top = '-999px';
   parentStyle.overflow = 'scroll';
   parentStyle.direction = 'rtl';
 
   childrenStyle.display = 'block';
   childrenStyle.position = 'relative';
-  childrenStyle.width = childrenStyle.height = '200px';
+  childrenStyle.width = '200px';
+  childrenStyle.height = '200px';
 
   parent.insertBefore(children, null);
   document.body.insertBefore(parent, null);
@@ -53,7 +56,7 @@ export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean)
   if (parent.clientWidth === 0) {
     // remove the element and skip the caching
     document.body.removeChild(parent);
-    return;
+    return undefined;
   }
 
   // some browsers (chrome) will behave as there is no RTL at all, others (IE, FF)
