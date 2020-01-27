@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.5.0...v1.6.0) (2020-01-27)
+
+
+### Features
+
+* New travis config; ([555ae69](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/555ae69c1f721a70239cbd6b4f5c063053d1b08f))
+* replace tslint with eslint; ([3f8153e](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/3f8153ea97886aab62456cc23aa9b9a218efe270))
+
 # [1.5.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.4.0...v1.5.0) (2019-12-09)
 
 
