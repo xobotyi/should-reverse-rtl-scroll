@@ -9,6 +9,9 @@
             <img src="https://flat.badgen.net/npm/v/@xobotyi/should-reverse-rtl-scroll" alt="NPM version"/>
         </a>
         <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
+            <img src="https://flat.badgen.net/npm/dw/@xobotyi/should-reverse-rtl-scroll" alt="NPM weekly downloads"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
             <img src="https://flat.badgen.net/npm/license/@xobotyi/should-reverse-rtl-scroll" alt="License"/>
         </a>
         <a href="https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll">
@@ -72,6 +75,7 @@ This function caches the value to bring the less possible performance impact. In
 
 
 ## Related projects
+
 - [react-scrollbars-custom](https://www.npmjs.com/package/react-scrollbars-custom) &mdash; The best React custom scrollbars component. Allows you to customise scrollbars as you like it, crossbrowser!
 - [zoom-level](https://www.npmjs.com/package/zoom-level) &mdash; A comprehensive cross-browser package that allow you to determine page's and element's zoom level.
 - [@xobotyi/scrollbar-width](https://www.npmjs.com/package/@xobotyi/scrollbar-width) &mdash; A tool to get browser's scrollbars width.
