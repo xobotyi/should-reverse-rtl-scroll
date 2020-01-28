@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.6.0...v1.7.0) (2020-01-28)
+
+
+### Bug Fixes
+
+* added blank lines after headings ([838033c](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/838033c6b68f377b9911ba745dbe890b3a197ef7))
+
+
+### Features
+
+* added weekly downloads badge ([9a413cf](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/9a413cf2fcedbd18d7e5b12508f181fcb747968d))
+
 # [1.6.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.5.0...v1.6.0) (2020-01-27)
 
 
