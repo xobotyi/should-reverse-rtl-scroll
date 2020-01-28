@@ -39,6 +39,7 @@ Chrome `scrollLeft` value acts like there is no RTL al all, while FireFox and IE
 This tool gives you an answer should you reverse RTL scroll value in certain browser or not.
 
 ## Installation
+
 ```bash
 npm install @xobotyi/should-reverse-rtl-scroll
 # or via yarn
