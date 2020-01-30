@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.0...v1.7.1) (2020-01-30)
+
+
+### Bug Fixes
+
+* remove everything from dist packages excepting dist code. ([13d4460](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/13d446004531b3febad952940d812325bcd7db9a))
+
 # [1.7.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.6.0...v1.7.0) (2020-01-28)
 
 
