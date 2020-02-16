@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.1...v1.7.2) (2020-02-16)
+
+
+### Bug Fixes
+
+* lint-staged commands been using the tslint; ([9b3c061](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/9b3c061d6290c45f6fcc9ee9c1fd4a4d02b28ff8))
+
 ## [1.7.1](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.0...v1.7.1) (2020-01-30)
 
 
