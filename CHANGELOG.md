@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.2...v1.7.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* fix ssr check; ([e023be0](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/e023be0b7333d39309e7704258d3285f4afa5e40))
+
 ## [1.7.2](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.1...v1.7.2) (2020-02-16)
 
 
