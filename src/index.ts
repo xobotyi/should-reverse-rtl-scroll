@@ -10,7 +10,7 @@ export interface ShouldReverseRtlScroll {
 export const shouldReverseRtlScroll: ShouldReverseRtlScroll = (force?: boolean): boolean | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
-  if (!document) {
+  if (typeof document === 'undefined') {
     return false;
   }
 
