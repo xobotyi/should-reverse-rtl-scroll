@@ -1,4 +1,4 @@
-export interface ShouldReverseRtlScroll {
+export interface IShouldReverseRtlScroll {
   (force?: boolean): boolean | undefined;
 
   __cache?: boolean;
@@ -7,7 +7,7 @@ export interface ShouldReverseRtlScroll {
 /**
  * @description Detects the need of horizontal scroll reverse during the RTL display.
  */
-export const shouldReverseRtlScroll: ShouldReverseRtlScroll = (force?: boolean): boolean | undefined => {
+export const shouldReverseRtlScroll: IShouldReverseRtlScroll = (force?: boolean): boolean | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
   if (typeof document === 'undefined') {
