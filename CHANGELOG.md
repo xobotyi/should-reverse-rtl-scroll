@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.3...v1.7.4) (2020-03-02)
+
+
+### Bug Fixes
+
+* **lint:** rename interface to pass the linting; ([e8ae521](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/e8ae521f5fdb18509433e392bb67acc50619b628))
+
 ## [1.7.3](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.2...v1.7.3) (2020-02-24)
 
 
