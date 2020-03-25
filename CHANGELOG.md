@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.4...v1.7.5) (2020-03-25)
+
+
+### Bug Fixes
+
+* fix eslint errors. ([d68b279](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/d68b2791d90ce660f107108dd027f8996b87b559))
+
 ## [1.7.4](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.3...v1.7.4) (2020-03-02)
 
 
