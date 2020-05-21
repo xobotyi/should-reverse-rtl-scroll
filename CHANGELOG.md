@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.5...v1.8.0) (2020-05-21)
+
+
+### Features
+
+* add patreon funding link ([5339f68](https://github.com/xobotyi/should-reverse-rtl-scroll/commit/5339f6809c6cbf951cc5c95392117c03dee589bc))
+
 ## [1.7.5](https://github.com/xobotyi/should-reverse-rtl-scroll/compare/v1.7.4...v1.7.5) (2020-03-25)
 
 
