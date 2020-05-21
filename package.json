@@ -4,6 +4,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/xobotyi"
+  },
   "description": "A tool detecting if RTL scroll value should be negative",
   "keywords": [
     "rtl",
